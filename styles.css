@@ -1,0 +1,89 @@
+body {
+    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #e233ff, #ff6b00);
+  }
+
+  h2 {
+    color: white;
+  }
+  .number-list {
+    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    float: left;
+    border-radius: 1rem;
+  }
+  
+  
+  .yellow {
+    color: yellow;
+  }
+  
+  .cyan {
+    color: cyan;
+  }
+  
+  .purple {
+    color: #da70d6;
+  }
+  
+  .orange {
+    color: orange;
+  }
+  
+  .blue {
+    color: #0096ff;
+  }
+  
+  .line {
+      border-radius: 0.5rem; /* Set the initial border radius */
+      transition: background-color 0.3s ease, border-radius 0.3s ease; /* Add a smooth transition effect for both properties */
+    }
+  
+    .line:hover {
+      background-color: rgba(255, 255, 255, 0.5); /* White transparent background on hover */
+      border-radius: 2rem; /* Set the border radius on hover */
+    }
+  
+    .terminal-wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .terminal-header {
+      position: absolute;
+      top: -15px;
+      left: 0;
+      right: 0;
+      background-color: white;
+      display: flex;
+      padding: 0.5rem;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    
+    .circle {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+    
+    .red {
+      background-color: red;
+    }
+    
+    .green {
+      background-color: green;
+    }
+    
+    .yellow2 {
+      background-color: yellow;
+    }
+    
+  
